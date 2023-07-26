@@ -7,7 +7,190 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
+
+* {
+  margin: 0;
+  
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.navbar {
+  height: 4.7rem;
+  background-color: #002266;
+  width: 100%;
+  padding-top: 1rem;
+  color:white;
+}
+
+.navbar a {
+  text-decoration: none;
+  margin-left: 20.5rem;
+  margin-top: 0.6rem;
+  float: left;
+  color:white;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+  font-size: 105%;
+}
+.navbar h2 {
+  font-style: italic;
+}
+
+.makepost h3 {
+  margin-top: 1.5rem;
+  font-weight:400;
+}
+
+.makepost textarea {
+  height: 4rem;
+  width: 35rem;
+  margin-top: 1rem;
+  position: relative;
+  left: 3rem;
+}
+
+.share {
+  margin-left: 1.7rem;
+  height: 1.2rem;
+  position: relative;
+  top: -0.4rem;
+  left: 3rem;
+  background-color: #b3f0ff;
+  border-radius: 0.3rem;
+  border: 0.05rem solid black;
+}
+
+.container {
+  height: 35rem;
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem auto;
+  background-image: url("https://media.istockphoto.com/id/1223522430/photo/background-image-of-a-group-of-business-people-in-the-office-lobby.jpg?s=612x612&w=0&k=20&c=RdQGOrl1IMim9sZM6FZ81fEzvY5kIkIm80u6jTiJdqA=");
+  background-size: cover;
+  border-radius: 1rem;
+  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.subtxt {
+  margin-top: 0.5rem;
+}
+
+.signupform {
+  margin-top: 2rem;
+  text-align: left;
+  font-weight: bolder;
+}
+
+.signupform input {
+  width: 15rem;
+  padding-left: 0.8rem;
+}
+
+.signupsubmit {
+  position: relative;
+  left: 13rem;
+  width: 7rem;
+  font-weight: bold;
+  height: 1.5rem;
+  border-radius: 0.1rem;
+  background-color: #b3f0ff;
+}
+
+.contain {
+  height: 15rem;
+  width: 45rem;
+  background-color:#b3f0ff;
+  border-radius: 1rem;
+  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 10rem auto;
+  padding-top: 1rem;
+}
+
+.contain p{
+  font-size: 105%;
+}
+
+.eachpost {
+  height: 18rem;
+  width: 35rem;
+  border: 0.05rem solid black;
+  margin: 1.5rem auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 2;
+  background-color: white;
+}
+
+.eachpost:hover {
+  box-shadow: 0 1rem 1rem 0 lightgray;
+}
+
+.userid {
+  text-align: left;
+  font-weight: bold;
+  padding-left: 1.2rem;
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.delete {
+ position: relative;
+ left: 18rem;
+}
+
+.edit {
+  position: relative;
+ left: 18.5rem;
+}
+
+.body {
+  text-align: left;
+  margin-top: 1.2rem;
+  padding-left: 1.2rem;
+  padding-right: 0.5rem;
+}
+
+.postfooter {
+  margin-top: 10rem;
+  text-align: left;
+  padding-left: 1.2rem;
+}
+
+.like {
+  margin-right: 1rem;
+}
+
+.likes {
+  position: relative;
+  left: 17rem;
+}
+
+.dislikes {
+  position: relative;
+  left: 18rem;
+}
+
+.dash {
+  background-image: url("https://i.pinimg.com/600x315/8c/98/99/8c98994518b575bfd8c949e91d20548b.jpg");
+  background-size: cover;
+  position: relative;
+  z-index:1;
+}
+
+.eachpost a{
+  text-decoration: none;
+  color: black;
 }
